@@ -44,7 +44,7 @@ Epoch : 200/500 ===> Reconstruction loss = 0.2590===> Reconstruction loss = 0.02
 view_concat {'kmeans': {'AMI': 0.6575, 'NMI': 0.6691, 'ARI': 0.6974, 'accuracy': 0.6593, 'precision': 0.4551, 'recall': 0.4222, 'f_measure': 0.4096}}
 Epoch : 300/500 ===> Reconstruction loss = 0.2450===> Reconstruction loss = 0.0207 ===> Dual prediction loss = 0.0011  ===> Contrastive loss = -4.5115e+02 ===> Loss = -4.5112e+02
 view_concat {'kmeans': {'AMI': 0.6875, 'NMI': 0.6982, 'ARI': 0.8679, 'accuracy': 0.7439, 'precision': 0.4586, 'recall': 0.444, 'f_measure': 0.4217}}
-INFO: - Epoch : 400/500 ===> Reconstruction loss = 0.2391===> Reconstruction loss = 0.0210 ===> Dual prediction loss = 0.0007  ===> Contrastive loss = -4.5013e+02 ===> Loss = -4.5010e+02
+Epoch : 400/500 ===> Reconstruction loss = 0.2391===> Reconstruction loss = 0.0210 ===> Dual prediction loss = 0.0007  ===> Contrastive loss = -4.5013e+02 ===> Loss = -4.5010e+02
 view_concat {'kmeans': {'AMI': 0.692, 'NMI': 0.7027, 'ARI': 0.8736, 'accuracy': 0.7456, 'precision': 0.4601, 'recall': 0.4451, 'f_measure': 0.4257}}
 Epoch : 500/500 ===> Reconstruction loss = 0.2281===> Reconstruction loss = 0.0187 ===> Dual prediction loss = 0.0008  ===> Contrastive loss = -4.5018e+02 ===> Loss = -4.5016e+02
 view_concat {'kmeans': {'AMI': 0.6912, 'NMI': 0.7019, 'ARI': 0.8707, 'accuracy': 0.7464, 'precision': 0.4657, 'recall': 0.4464, 'f_measure': 0.4265}}
