@@ -4,7 +4,7 @@ This repo contains the code and data of the following paper accepeted by [CVPR 2
 
 > COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction
 
-<img src="/Users/simon/Library/Application Support/typora-user-images/image-20210316103304333.png" alt="image-20210316103304333" style="zoom:40%;" />
+<img src="https://github.com/Lin-Yijie/2021-CVPR-Completer" alt="image-20210316103304333" style="zoom:40%;" />
 
 ## Requirements
 
