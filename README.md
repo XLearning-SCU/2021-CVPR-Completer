@@ -18,7 +18,7 @@ munkres>=1.1.4
 
 ## Configuration
 
-The hyper-parameters, the training options, and **the missing rate** are defined in configure.py.
+The hyper-parameters, the training options (including **the missing rate**) are defined in configure.py.
 
 ## Datasets
 
