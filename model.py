@@ -299,7 +299,7 @@ class Completer():
                 loss_all += loss.item()
                 loss_rec1 += recon1.item()
                 loss_rec2 += recon2.item()
-                loss_pre += pre1.item() + pre2.item()
+                loss_pre += dualprediction_loss.item()
                 loss_cl += cl_loss.item()
 
             if (epoch + 1) % config['print_num'] == 0:
