@@ -8,13 +8,21 @@ This repo contains the code and data of the following paper accepeted by [CVPR 2
 
 ## Requirements
 
-pytorch 1.2.0 
+pytorch==1.2.0 
 
-numpy>=1.16.4
+numpy>=1.19.1
+
+scikit-learn>=0.23.2
+
+munkres>=1.1.4
 
 ## Configuration
 
-The hyper-parameters and the missing rate are defined in configure.py.
+The hyper-parameters, the training options, and **the missing rate** are defined in configure.py.
+
+## Datasets
+
+The Caltech101-20, LandUse-21, and Scene-15 datasets are placed in "data" folder. The NoisyMNIST dataset could be downloaded from [cloud](https://drive.google.com/file/d/1b__tkQMHRrYtcCNi_LxnVVTwB-TWdj93/view?usp=sharing).
 
 ## Usage
 
