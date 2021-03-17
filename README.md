@@ -4,7 +4,7 @@ This repo contains the code and data of the following paper accepeted by [CVPR 2
 
 > COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction
 
-<img src="https://github.com/Lin-Yijie/2021-CVPR-Completer" alt="image-20210316103304333" style="zoom:40%;" />
+![image](https://github.com/Lin-Yijie/2021-CVPR-Completer/blob/main/figs/framework.png)
 
 ## Requirements
 
@@ -14,7 +14,7 @@ numpy>=1.16.4
 
 ## Configuration
 
-The hyper-parameters and missing rate are defined in configure.py.
+The hyper-parameters and the missing rate are defined in configure.py.
 
 ## Usage
 
@@ -55,4 +55,3 @@ If you find our work useful in your research, please consider citing:
    year={2021}
 }
 ```
-
