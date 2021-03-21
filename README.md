@@ -1,6 +1,6 @@
 # Completer: Incomplete Multi-view Clustering via Contrastive Prediction
 
-This repo contains the code and data of the following paper accepeted by [CVPR 2021](http://cvpr2021.thecvf.com)
+This repo contains the code and data of the following paper accepted by [CVPR 2021](http://cvpr2021.thecvf.com)
 
 > COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction
 
