@@ -2,7 +2,7 @@
 
 This repo contains the code and data of the following paper accepted by [CVPR 2021](http://cvpr2021.thecvf.com)
 
-> COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction
+> [COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction](http://pengxi.me/wp-content/uploads/2021/03/2021CVPR-completer.pdf)
 
 <img src="https://github.com/Lin-Yijie/2021-CVPR-Completer/blob/main/figs/framework.png"  width="897" height="317" />
 
