@@ -6,13 +6,14 @@
 # E-mail: linyijie.gm@gmail.com,
 
 # @inproceedings{lin2021completer,
-#   title={COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction},
-#   author={Yijie Lin, Yuanbiao Gou, Zitao Liu, Boyun Li, Jiancheng Lv, Xi Peng},
-#   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-#   month= {June},
-#   year={2021}
+#    title={COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction},
+#    author={Lin, Yijie and Gou, Yuanbiao and Liu, Zitao and Li, Boyun and Lv, Jiancheng and Peng, Xi},
+#    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+#    month={June},
+#    year={2021}
 # }
 # =====================
+
 import argparse
 import collections
 import itertools
