@@ -14,7 +14,7 @@ def get_mask(view_num, data_len, missing_rate):
           mask
 
     """
-    missing_rate = missing_rate / 2
+    missing_rate = missing_rate / view_num
     one_rate = 1.0 - missing_rate
     if one_rate <= (1 / view_num):
         enc = OneHotEncoder()
