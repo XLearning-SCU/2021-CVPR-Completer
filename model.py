@@ -77,7 +77,7 @@ class Autoencoder(nn.Module):
             if self._activation == 'sigmoid':
                 decoder_layers.append(nn.Sigmoid())
             elif self._activation == 'leakyrelu':
-                encoder_layers.append(nn.LeakyReLU(0.2, inplace=True))
+                decoder_layers.append(nn.LeakyReLU(0.2, inplace=True))
             elif self._activation == 'tanh':
                 decoder_layers.append(nn.Tanh())
             elif self._activation == 'relu':
