@@ -24,10 +24,16 @@ def crossview_contrastive_Loss(view1, view2, lamb=9.0, EPS=sys.float_info.epsilo
 
     p_i = p_i_j.sum(dim=1).view(k, 1).expand(k, k)
     p_j = p_i_j.sum(dim=0).view(1, k).expand(k, k)
-
-    p_i_j[(p_i_j < EPS).data] = EPS
-    p_j[(p_j < EPS).data] = EPS
-    p_i[(p_i < EPS).data] = EPS
+    
+#     Works with pytorch <= 1.3
+#     p_i_j[(p_i_j < EPS).data] = EPS
+#     p_j[(p_j < EPS).data] = EPS
+#     p_i[(p_i < EPS).data] = EPS
+    
+    # Works with pytorch > 1.3
+    p_i_j = torch.where(p_i_j < EPS, torch.tensor([EPS], device = p_i_j.device), p_i_j)
+    p_j = torch.where(p_j < EPS, torch.tensor([EPS], device = p_j.device), p_j)
+    p_i = torch.where(p_i < EPS, torch.tensor([EPS], device = p_i.device), p_i)
 
     loss = - p_i_j * (torch.log(p_i_j) \
                       - (lamb + 1) * torch.log(p_j) \
