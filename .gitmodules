@@ -1,0 +1,3 @@
+[submodule "2022-TPAMI-DCP"]
+	path = 2022-TPAMI-DCP
+	url = https://github.com/XLearning-SCU/2022-TPAMI-DCP.git
