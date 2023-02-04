@@ -6,7 +6,7 @@ This repo contains the code and data of our CVPR'2021 paper Completer: Incomplet
 
 > [COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction](http://pengxi.me/wp-content/uploads/2021/03/2021CVPR-completer.pdf)
 > 
-> [Dual Contrastive Prediction for Incomplete Multi-view Representation Learning](http://pengxi.me/wp-content/uploads/2022/08/DCP.pdf)
+> [Dual Contrastive Prediction for Incomplete Multi-view Representation Learning](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf)
 
 <img src="https://github.com/Lin-Yijie/2021-CVPR-Completer/blob/main/figs/framework.png"  width="897" height="317" />
 
